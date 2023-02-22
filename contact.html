@@ -6,12 +6,13 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Les 13 t/m 15</title>
-            <link rel="stylesheet"  type="text/css"  href="index.css">
+            <link rel="stylesheet"  type="text/css"  href="contact.css">
             </head>
 
 
 
         <body>
+
 
 
             <header>
@@ -20,18 +21,20 @@
                     <li><a href="mijncv.html">Mijn CV</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-
             </header>
 
 
-            <p>
-                <img src="landscape.jpg" alt="beach" id="landscape" style="float:right">
-                <b id="tekst">Inleidende tekst</b><br>
-                <span>Ik ben <b>Galvano Baag</b> op dit moment ben ik bezig met de opleiding<b> <br>Back-end Developer</b>. Dit is een huiswerk opdracht van les 15.<br> 
-                De opdracht bestaat uit het maken van drie afzondelijke <b>HTML</b> en <b>CSS</b> pagina's die met elkaar verbonden zijn.
-                Door een koppeling in de <b>head</b> van de <b>HTML</b> pagina te plaatsen.</span>
-            </p>
 
+                <form action="https://formspree.io/f/xpzedynk"
+                method="post">
+
+                    <h1>Contactformulier</h1>
+                    <input type="text" placeholder="Voornaam" name="Voornaam">             
+                    <input type="text" name="Achternaam" placeholder="Achternaam">                   
+                    <input type="text" name="E-mailadres" placeholder="E-mailadres">                   
+                    <textarea name="Bericht" placeholder="Bericht max. 1500 tekens" maxlength="1500"></textarea>
+                    <button>Verzenden</button>
+                </form>
             
 
                 <footer>
