@@ -36,6 +36,7 @@ position: fixed;
 }
 
 footer {
+position: fixed;
 font-size: medium;
 width: 100%;
 padding: 10px 10px 10px 10px;
