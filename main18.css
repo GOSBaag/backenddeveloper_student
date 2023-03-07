@@ -44,10 +44,11 @@ position: fixed;
 }
 
 footer {
-position: absolute;
+position: fixed;
 font-size: medium;
 width: 100%;
-padding: 10px;
+padding: 5px;
+min-height: 50px;
 bottom: 0%;
 left: 0%;
 background-color: dodgerblue;
