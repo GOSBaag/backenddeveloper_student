@@ -1,14 +1,7 @@
 [class*="col-"] {
     width: 100%;
     }
-    body{
-        background-color: blue;
-}@media only screen and (max-width: 768px) {
-    body{
-        background-color: red;
-    }
-    }
-
+    body{background-color: blue;}@media only screen and (min-width: 768px) {body{background-color: red;}}
     [class*="col-"] {
         float: left;
         padding: 15px;
@@ -51,6 +44,7 @@ position: fixed;
 }
 
 footer {
+position: absolute;
 font-size: medium;
 width: 100%;
 padding: 10px;
@@ -95,14 +89,14 @@ background-color: skyblue;
 
 #aviodrome {
 float: right;
-max-width: 350px;
-height: auto;
+width: 350px;
+height: 100px;
 }
 
 #natuurpark {
 float: right;
-max-width: 350px;
-height: auto;
+width: 350px;
+height: 100px;
 }
 
 
