@@ -6,6 +6,12 @@
         float: left;
         padding: 15px;
     }
+    html, body {
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    }
 
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -42,6 +48,20 @@ text-shadow: 0px 1px 1px white;
 position: fixed;
 
 }
+
+footer {
+position: fixed;
+font-size: medium;
+width: 100%;
+padding: 5px;
+min-height: 50px;
+bottom: 0%;
+left: 0%;
+background-color: dodgerblue;
+color: white;
+text-align: left;
+}
+
 
 
 
@@ -89,18 +109,7 @@ height: 100px;
 }
 
 
-footer {
-position: fixed;
-font-size: medium;
-width: 100%;
-padding: 5px;
-min-height: 50px;
-bottom: 0%;
-left: 0%;
-background-color: dodgerblue;
-color: white;
-text-align: left;
-}
+
 
 
 
