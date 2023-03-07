@@ -90,7 +90,7 @@ height: 100px;
 
 
 footer {
-position: fixed;
+background-position: fixed;
 font-size: medium;
 width: 100%;
 padding: 5px;
