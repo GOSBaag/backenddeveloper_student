@@ -97,7 +97,7 @@ background-color: skyblue;
 .avio {
 padding: 5px;
 text-align: left;
-max-width: auto; 
+max-width: 80%; 
 max-height: auto;
 }
 #aviodrome {
@@ -110,7 +110,7 @@ max-height: auto;
 .park {
 padding: 5px;
 text-align: left;
-max-width: auto; 
+max-width: 80%; 
 max-height: auto;
 }
 #natuurpark {
