@@ -71,11 +71,11 @@ font-size: small;
 }
 
 .menu li {
-padding: 10px;
+padding: 5px;
 margin-bottom: 7px;
 background-color: dodgerblue;
 color: white;
-
+word-break: normal;
 }
 .menu li:hover {
 background-color: deepskyblue;
