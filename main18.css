@@ -68,7 +68,7 @@ padding: 0;
 margin-top: 100px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: small;
-word-break: normal;
+word-break: break-word;
 }
 
 .menu li {
