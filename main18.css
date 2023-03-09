@@ -73,7 +73,7 @@ font-size: small;
 .menu li {
 padding: 5px;
 margin-bottom: 7px;
-max-width: 100%; 
+max-width: auto; 
 height: auto;
 
 background-color: dodgerblue;
