@@ -2,14 +2,10 @@
     width: 100%;
     }
     body{background-color: blue;}@media only screen and (min-width: 768px) {body{background-color: red;}}
-     [class*="col-"]{
+    [class*="col-"] {
         float: left;
         padding: 15px;
-         
-         
-}
-         
-    
+    }
     
 
     .col-1 {width: 8.33%;}
@@ -46,7 +42,6 @@ color: deepskyblue;
 text-shadow: 0px 1px 1px white;
 position: fixed;
 line-height: 0px;
-
 }
 
 footer {
@@ -57,11 +52,7 @@ padding: 5px;
 background-color: dodgerblue;
 color: white;
 text-align: center;
-
-
 }
-
-
 
 
 
@@ -72,7 +63,6 @@ padding: 0;
 margin-top: 100px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: small;
-word-break: break-word;
 }
 
 .menu li {
@@ -80,20 +70,23 @@ padding: 5px;
 margin-bottom: 7px;
 background-color: dodgerblue;
 color: white;
-
 }
 .menu li:hover {
 background-color: deepskyblue;
 }
 
 
+section {
+size-adjust: 100%;
+}
+
+
+
 
 .attracties {
-float: right;
 margin-top: 115px;
 padding: 5px;
 background-color: skyblue;
-
 }
 
 .avio {
