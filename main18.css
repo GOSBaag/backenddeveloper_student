@@ -76,6 +76,11 @@ background-color: deepskyblue;
 }
 
 
+section {
+display: flex;
+}
+
+
 
 
 .attracties {
@@ -104,6 +109,9 @@ float: right;
 max-width: 100%; 
 height: auto;
 }
+
+
+
 
 
 
