@@ -2,13 +2,13 @@
     width: 100%;
     }
     body{background-color: blue;}@media only screen and (min-width: 768px) {body{background-color: red;}}
-     {
+     [class*="col-"]{
         float: left;
         padding: 15px;
          
          
 }
-         [class*="col-"]
+         
     
     
 
@@ -89,6 +89,7 @@ background-color: deepskyblue;
 
 
 .attracties {
+float: right;
 margin-top: 115px;
 padding: 5px;
 background-color: skyblue;
