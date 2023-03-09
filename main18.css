@@ -1,20 +1,23 @@
-[class*="col-"] {
-    width: 100%;
-    }
-    
-    body {
-    @media only screen and (min-width: 600px)
-    @media only screen and (max-width: 600px)
-    @media only screen and (min-width: 768px)
-    @media only screen and (min-width: 992px)
-    @media only screen and (min-width: 1200px)
-    }
-    [class*="col-"] {
-        float: left;
-        padding: 15px;
-    }
-    
+* {
+    box-sizing:border-box;
+}
 
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    }
+    
+    [class*="col-"] {
+    width: 100%;
+    } 
+    
+    @media only screen and (min-width: 768px)
+    
+    
+    {
+    
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -28,101 +31,98 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 
+    }
 
 
 
-
-header {
-top: 0%;
-left: 0%;
+.header {
+min-width: 100%;
 padding: 5px;
 max-height: 70px;
 background-image: url("lelystad.jpg");
-background-size: 260px 150px;
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: Verdana, Tahoma, sans-serif;
 font-size: x-large;
-color: deepskyblue;
-text-shadow: 0px 1px 1px white;
-position: fixed;
-line-height: 0px;
+color: white;
+text-shadow: 0px 4px 4px black;
+line-height: 23px;
+position: inherit;
 }
 
-footer {
-max-height: 30px;
-margin-left: -22px;
-font-size: medium;
-padding: 5px;
+.footer {
+min-height: 30px;
+min-width: 100%;
+font-size: 13px;
+padding: 15px;
 background-color: dodgerblue;
 color: white;
 text-align: center;
+margin: 0 auto;
+font-family: Verdana, Tahoma, sans-serif;
 }
 
 
 
 .menu ul {
 list-style-type: none;
-margin: 0;
-padding: 0;
-margin-top: 100px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: small;
+margin: 0px;
+padding: 0px;
+margin-top: 25px;
+font-family: Verdana, Tahoma, sans-serif;
+font-size: 13px;
 }
 
 .menu li {
 padding: 5px;
 margin-bottom: 7px;
-background-color: dodgerblue;
-color: white;
+background-color: deepskyblue;
+color: black;
 }
 .menu li:hover {
-background-color: deepskyblue;
+background-color: rgb(155, 212, 247);
+
 }
-
-
 
 
 
 
 .attracties {
-margin-top: 115px;
-padding: 5px;
+margin-top: 40px;
+margin-bottom: 40px;
+padding: 15px;
 background-color: skyblue;
+font-family: Verdana, Tahoma, sans-serif;
 
 }
 
-.avio {
-padding: 5px;
-text-align: left;
-max-width: 80%; 
-max-height: auto;
+p {
+font-size: 13px;
 }
+
 #aviodrome {
 float: right;
-max-width: 100px; 
-max-height: auto;
-}
-
-
-.park {
+max-width: 200px; 
+max-height: 200px;
 padding: 5px;
-text-align: left;
-max-width: 80%; 
-max-height: auto;
 }
+
+
+
 #natuurpark {
 float: right;
-max-width: 100px; 
-max-height: auto;
+max-width: 200px; 
+max-height: 200px;
+padding: 5px;
 
 }
 
-
-
-
-
+.row::after {
+content: "";
+clear: both;
+display: block;
+}
 
 
