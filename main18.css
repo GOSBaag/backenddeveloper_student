@@ -88,6 +88,8 @@ background-color: deepskyblue;
 margin-top: 115px;
 padding: 5px;
 background-color: skyblue;
+max-width: 100%; 
+height: auto;
 }
 
 .avio {
