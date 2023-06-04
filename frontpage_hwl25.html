@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+    <head>
+
+        <title>Huiswerk les 25</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet"  type="text/css"  href="main18.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $("#knop").click(function() {
+        var naam = $("#idTekstveld").val();
+        window.alert("Dag " + naam + ", welkom op mijn pagina!");
+        });
+        });
+        </script>
+
+    </head>
+
+    <body>
+
+        
+        <div id="body">
+
+            <form>
+            Wat is uw naam?
+            
+            <input type="text" id="idTekstveld">
+            <a href="huiswerkles_25.html">
+            <input id="knop" name="knop" type="button"
+            value="Klik op deze knop">
+            </a>
+            </form>
+            
+            
+
+            <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+            </noscript>
+        
+            
+    
+        </div>
+    </body>
+
+</html>
